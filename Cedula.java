@@ -2,13 +2,14 @@ package beecrowd;
 
 import java.util.Locale;
 import java.util.Scanner;
+
 public class Cedula {
 
 	public static void main(String[] args) {
 		// https://www.beecrowd.com.br/judge/pt/problems/view/1018
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+
 		int valor = sc.nextInt();
 		System.out.println(valor);
 		System.out.println(valor / 100 + " nota(s) de R$ 100,00");
@@ -24,7 +25,7 @@ public class Cedula {
 		System.out.println(valor / 2 + " nota(s) de R$ 2,00");
 		valor = valor % 2;
 		System.out.println(valor / 1 + " nota(s) de R$ 1,00");
-		
+
 		sc.close();
 	}
 

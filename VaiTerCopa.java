@@ -9,11 +9,11 @@ public class VaiTerCopa {
 		// Link da questão: https://www.beecrowd.com.br/judge/pt/problems/view/1564
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		while(sc.hasNext()) {
+		while (sc.hasNext()) {
 			int n = sc.nextInt();
-			if(n==0) {
+			if (n == 0) {
 				System.out.println("vai ter copa!");
-			}else {
+			} else {
 				System.out.println("vai ter duas!");
 			}
 		}

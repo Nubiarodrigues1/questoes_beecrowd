@@ -10,7 +10,7 @@ public class DDD {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int DDD = sc.nextInt();
-		switch(DDD) {
+		switch (DDD) {
 		case 61:
 			System.out.println("Brasilia");
 			break;

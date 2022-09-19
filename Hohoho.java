@@ -1,4 +1,5 @@
 package beecrowd;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,9 +9,8 @@ public class Hohoho {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-
 		int ho = sc.nextInt();
-		for(int i = 1;i<ho;i++) {
+		for (int i = 1; i < ho; i++) {
 			System.out.printf("Ho ");
 		}
 		System.out.println("Ho!");

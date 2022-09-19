@@ -10,13 +10,13 @@ public class Mjölnir {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		for(int i = 0; i<num;i++) {
+		for (int i = 0; i < num; i++) {
 			String nome = sc.next();
 			int forca = sc.nextInt();
-		
-			if(nome.equals("Thor")) {
-				System.out.println("Y");	
-			}else {
+
+			if (nome.equals("Thor")) {
+				System.out.println("Y");
+			} else {
 				System.out.println("N");
 			}
 		}

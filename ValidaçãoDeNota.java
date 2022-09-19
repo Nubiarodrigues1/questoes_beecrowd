@@ -6,22 +6,23 @@ import java.util.Scanner;
 public class ValidaçãoDeNota {
 
 	public static void main(String[] args) {
-		//https://www.beecrowd.com.br/judge/pt/problems/view/1117
+		// https://www.beecrowd.com.br/judge/pt/problems/view/1117
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		double soma = 0;
 		int cont = 0;
-		while(true) { 
+		while (true) {
 			double davez = sc.nextDouble();
-			if(davez>=0 && davez<=10) {
-				soma+=davez;
+			if (davez >= 0 && davez <= 10) {
+				soma += davez;
 				cont++;
 			} else {
-				System.out.println("nota invalida");	
+				System.out.println("nota invalida");
 			}
-			if(cont==2) break;	
+			if (cont == 2)
+				break;
 		}
-		System.out.printf("media = %.2f%n",soma/2);
+		System.out.printf("media = %.2f%n", soma / 2);
 		sc.close();
 
 	}

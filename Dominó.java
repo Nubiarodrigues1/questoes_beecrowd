@@ -10,7 +10,7 @@ public class Dominó {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		System.out.printf("%d%n",((N+1)*(N+2))/2);
+		System.out.printf("%d%n", ((N + 1) * (N + 2)) / 2);
 
 	}
 

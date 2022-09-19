@@ -11,8 +11,8 @@ public class IdentificandoOCha {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		int cont = 0;
-		for(int i = 0;i<5;i++) {
-			if(sc.nextInt()== t) {
+		for (int i = 0; i < 5; i++) {
+			if (sc.nextInt() == t) {
 				cont++;
 			}
 		}

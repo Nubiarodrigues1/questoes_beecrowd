@@ -11,10 +11,10 @@ public class PUM {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int p = 0;
-		for(int i = 0;i<n;i++) {
-			System.out.printf((p+1)+" "+(p+2)+" "+(p+3)+" " + "PUM%n");
-			p+=4;
-			
+		for (int i = 0; i < n; i++) {
+			System.out.printf((p + 1) + " " + (p + 2) + " " + (p + 3) + " " + "PUM%n");
+			p += 4;
+
 		}
 
 	}

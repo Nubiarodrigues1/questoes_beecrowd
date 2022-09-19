@@ -11,7 +11,7 @@ public class Corrida {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		System.out.printf("%d%n",a%b);
+		System.out.printf("%d%n", a % b);
 
 	}
 
