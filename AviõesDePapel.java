@@ -13,7 +13,7 @@ public class AviõesDePapel {
 		int p = sc.nextInt();
 		int f = sc.nextInt();
 	        if(p/c>=f){
-			System.out.println("S");
+		   System.out.println("S");
 	       }else{
 		   System.out.println("N");
 	       }
