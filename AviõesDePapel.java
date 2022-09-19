@@ -12,11 +12,11 @@ public class AviõesDePapel {
 		int c = sc.nextInt();
 		int p = sc.nextInt();
 		int f = sc.nextInt();
-		if(p/c>=f){
+	        if(p/c>=f){
 			System.out.println("S");
-	    }else{
+	       }else{
 		   System.out.println("N");
-	    }
+	       }
 
 
 	}
